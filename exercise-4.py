@@ -10,7 +10,7 @@ def chunking_by(numbers, chunck):
 def main():
     
     numbers_input = input("Enter numbers separated by commas: ")
-    chunk_size_input = int(input("Enter chunk size: "))
+    chunk_size_input = int(input("Please enter chunk size: "))
     
     numbers_str = numbers_input.replace('[', '').replace(']', '')
     numbers = [int(num.strip()) for num in numbers_str.split(',')]
