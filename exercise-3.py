@@ -11,7 +11,7 @@ def remove_all_after(numbers, n):
 
 def main():
     numbers_input = input("Please enter your numbers in list by commas: ")
-    n_input = int(input("Please enter the number to remove all after: "))
+    n_input = int(input("Enter the number to remove all after: "))
     
     numbers_str = numbers_input.replace('[', '').replace(']', '')
     numbers = [int(num.strip()) for num in numbers_str.split(',')]
